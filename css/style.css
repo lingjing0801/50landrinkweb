@@ -1,4 +1,15 @@
 #logo img {
-  width: 100px;
+  width: 80px;
+}
+
+.navbar {
+  background-color: #fff !important;
+  border-top: 1px solid gold;
+}
+
+.carousel img {
+  height: 70vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=style.css.map */

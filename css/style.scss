@@ -1,3 +1,15 @@
+$color-main:#ffff00
+// logo和導覽列
 #logo img{
-    width: 100px;
+    width: 80px;
 }
+.navbar{
+    background-color: #fff!important;
+    border-top:1px solid $color-main;
+}
+// 輪播
+.carousel img{
+    height: 70vh;
+    object-fit:cover;
+}
+// footer
