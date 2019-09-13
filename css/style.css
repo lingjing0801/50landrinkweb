@@ -5,16 +5,27 @@
 #logo img {
   width: 80px;
 }
-
 .navbar {
   background-color: #fff !important;
   border-top: 1px solid #ffff00;
 }
+
+#logo2{
+  margin: 0;
+}
+#logo2 img{
+  width: 80px;
+}
 /* 輪播 */
 .carousel img {
   height: 70vh;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
+  
+}
+.pic img{
+  height: 80vh;
+  object-fit: cover;
+
 }
 /* footer */
 footer{
