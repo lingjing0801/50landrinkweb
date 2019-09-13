@@ -4,12 +4,32 @@
 
 .navbar {
   background-color: #fff !important;
-  border-top: 1px solid gold;
+  border-top: 1px solid #ffff00;
 }
 
 .carousel img {
   height: 70vh;
   -o-object-fit: cover;
      object-fit: cover;
+}
+footer{
+  background-color:#eee;
+}
+.footer2{
+  border: 0.5px solid yellow;
+  padding-top:10px;
+}
+.footer1 img{
+  width: 80px;
+}
+.footer2 h4{
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+.footer2 p{
+  font-size: 12px;
+}
+.footer3 img{
+  width: 40px;
 }
 /*# sourceMappingURL=style.css.map */

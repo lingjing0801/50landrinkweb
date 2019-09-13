@@ -13,3 +13,18 @@ $color-main:#ffff00
     object-fit:cover;
 }
 // footer
+footer{
+    background-color: #eee;
+    .footer1 img{
+        width: 80px;
+    }
+    .footer2 h4{
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    .footer3 img{
+        width: 40px;
+      }
+}
+
+
