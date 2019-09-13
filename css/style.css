@@ -4,28 +4,18 @@
 /* 導覽頁 */
 #logo img {
   width: 80px;
+  padding:0 !important;
 }
-.navbar {
-  background-color: #fff !important;
-  border-top: 1px solid #ffff00;
+.navbar{
+  background-color: #eee !important;  
 }
 
-#logo2{
-  margin: 0;
-}
-#logo2 img{
-  width: 80px;
-}
+
 /* 輪播 */
 .carousel img {
-  height: 70vh;
-  object-fit: cover;
-  
-}
-.pic img{
   height: 80vh;
   object-fit: cover;
-
+  
 }
 /* footer */
 footer{
@@ -49,7 +39,7 @@ footer{
 }
 /* 麵包屑 */
 .breadcrumb{
-  background-color: #eee;
+  background-color: #ffffef;
   margin-bottom: 0 !important;
 }
 .breadcrumb a{
@@ -59,7 +49,7 @@ footer{
 #about{
   background-color: #ffffef;
   letter-spacing: 3px;
-  padding: 30px 0;
+  padding:30px 0;
 }
 #about h2{
   text-align: center;
