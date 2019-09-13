@@ -31,8 +31,9 @@ footer{
   font-size: 12px;
   letter-spacing: 2px;
 }
-.footer2 p{
+.copy p{
   font-size: 12px;
+  padding-bottom: 10px;
 }
 .footer3 img{
   width: 40px;
@@ -56,4 +57,49 @@ footer{
   font-size: 20px;
   font-weight: 800;
 }
+
+
+
+/* RWD */
+/*當螢幕小於等於 1023 像素 平板 */
+@media screen and (max-width:1023px){
+  .footer2 h4{
+    font-size: 8px;
+    letter-spacing: 0;
+  }
+  .copy p{
+    font-size: 6px;
+  }
+}
+/*當螢幕小於等於 768 像素  */
+@media screen and (max-width:768px){
+  #logo img{
+    width: 40px;
+  }
+  .footer1 img{
+    width: 40px;
+  }
+  .footer3 img{
+    width: 20px;
+  }
+}
+/*當螢幕小於等於 576 像素  */
+@media screen and (max-width:576px){
+  #logo img{
+    width: 30px;
+  }
+  .footer1 img{
+    width: 30px;
+  }
+  .footer2 h4{
+    font-size: 6px;
+  }
+  .copy p{
+    font-size: 4px;
+  }
+  .footer3 img{
+    width: 10px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
