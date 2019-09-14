@@ -20,6 +20,8 @@
 /* footer */
 footer{
   background-color:#eee;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
 }
 .footer2{
   padding-top:10px;
@@ -31,9 +33,14 @@ footer{
   font-size: 12px;
   letter-spacing: 2px;
 }
+.copy{
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: #eee;
+  border: 1px solid rgba(0,0,0,0);
+}
 .copy p{
-  font-size: 12px;
-  padding-bottom: 10px;
+  font-size: 12px; 
 }
 .footer3 img{
   width: 40px;
