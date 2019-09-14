@@ -7,7 +7,8 @@
     <link rel="shortcut icon" href="imgs/icon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
     <link rel="stylesheet" href="css/style.css">
     <title>50嵐 | 找好茶</title>
 </head>
@@ -132,7 +133,25 @@
         </div>
     </div>
     <!-- slick 輪播圖 -->
-    
+    <div class="slick">
+        <div class="container">
+            <div class="slider">
+                <img src="imgs/drink1.jpg" alt="茉莉綠茶">
+                <img src="imgs/drink2.jpg" alt="阿薩姆奶茶">
+                <img src="imgs/drink3.jpg" alt="四季春青茶">
+                <img src="imgs/drink4.jpg" alt="黃金烏龍">
+                <img src="imgs/drink5.jpg" alt="波霸紅">
+                <img src="imgs/drink6.jpg" alt="波霸綠">
+                <img src="imgs/drink7.jpg" alt="檸檬紅">
+                <img src="imgs/drink8.jpg" alt="檸檬綠">
+                <img src="imgs/drink9.jpg" alt="多多綠">
+                <img src="imgs/drink10.jpg" alt="冰淇淋紅茶">
+                <img src="imgs/drink11.jpg" alt="旺來紅">
+                <img src="imgs/drink12.jpg" alt="旺來青">
+            </div>
+        </div>
+    </div>
+
     <!-- footer -->
     <footer>
         <div class="container">
@@ -172,6 +191,14 @@
         crossorigin="anonymous"></script>
     <!--slick CDN  -->
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $('.slider').slick({
+            infinite: true,
+            autoplay: true,
+            slidesToShow: 3,
+            slidesToScroll: 3
+        });
+    </script>
 </body>
 
 </html>

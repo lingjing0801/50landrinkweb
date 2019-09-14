@@ -1,6 +1,7 @@
 * {
   font-family: 微軟正黑體 !important;
 }
+
 /* 導覽頁 */
 #logo img {
   width: 80px;
@@ -108,7 +109,10 @@ footer{
   width: 100%;
   height: 620px;
 }
-
+.slick{
+  background-color: #ffffef;
+  padding-bottom:30px ;
+}
 /* RWD */
 /*當螢幕小於等於 1023 像素 平板 */
 @media screen and (max-width:1023px){
