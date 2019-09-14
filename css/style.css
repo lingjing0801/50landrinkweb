@@ -85,25 +85,15 @@ footer{
 .teabox{
   padding: 30px 0;
 }
-.icon{
-  /* border: 1px solid black; */
-}
 .icon img{
   width: 60px;
   display: inline-block;
 }
 .icon span{
   font-size: 20px;
-  vertical-align: top;
+  vertical-align: center;
   font-weight: 800; 
   /* border: 1px solid blue; */
-}
-.icon p{
-  display: inline-block;
-  font-size: 16px;
-  /* border: 1px solid red; */
-  margin:0px -65px;
-  vertical-align: -20px;
 }
 .tea-img img{
   width: 100%;
@@ -112,6 +102,10 @@ footer{
 .slick{
   background-color: #ffffef;
   padding-bottom:30px ;
+}
+/* 找拿鐵 */
+.latte-img{
+  width: 100%;
 }
 /* RWD */
 /*當螢幕小於等於 1023 像素 平板 */
