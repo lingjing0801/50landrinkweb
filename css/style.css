@@ -76,7 +76,31 @@ footer{
   text-align: center;
   padding: 10px 0;
 }
-
+/* 飲品介紹 */
+/* 找好茶 */
+.tea{
+  background-color: #ffffef;
+}
+.icon{
+  border: 1px solid black;
+}
+.icon img{
+  width: 60px;
+  display: inline-block;
+}
+.icon span{
+  font-size: 20px;
+  vertical-align: top;
+  font-weight: 800; 
+  border: 1px solid blue;
+}
+.icon p{
+  display: inline-block;
+  font-size: 16px;
+  border: 1px solid red;
+  margin:0px -65px;
+  vertical-align: -20px;
+}
 
 /* RWD */
 /*當螢幕小於等於 1023 像素 平板 */
