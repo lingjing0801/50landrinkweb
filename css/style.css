@@ -132,8 +132,14 @@ footer{
   .footer1 img{
     width: 40px;
   }
+  .footer1{
+    border: 1px solid blue;
+  }
   .footer3 img{
     width: 20px;
+  }
+  .copy p{
+    line-height: 2px;
   }
 }
 /*當螢幕小於等於 576 像素  */
