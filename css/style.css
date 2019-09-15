@@ -107,6 +107,14 @@ footer{
 .latte-img{
   width: 100%;
 }
+/* 聯絡我們 */
+.contact{
+  background-color: #ffffef;
+}
+.title span{
+  font-size: 20px;
+  font-weight: 800;
+}
 /* RWD */
 /*當螢幕小於等於 1023 像素 平板 */
 @media screen and (max-width:1023px){
@@ -156,6 +164,15 @@ footer{
   .new img{
     width: 70%;
     height: 270px;
+  }
+  .tea-img img{
+    height: 400px;
+  }
+  .icon img{
+    width: 40px;
+  }
+  .icon span{
+    font-size: 14px;
   }
 }
 
