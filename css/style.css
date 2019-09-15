@@ -132,6 +132,9 @@ footer{
   .contact-img img{
     height: 400px;
   }
+  .contact-right{
+    padding: 0 5px;
+  }
 }
 /*當螢幕小於等於 768 像素  */
 @media screen and (max-width:768px){
@@ -149,8 +152,15 @@ footer{
   }
   .copy p{
     line-height: 2px;
+  } 
+}
+/*當螢幕小於等於 767 像素  */
+@media screen and (max-width:767px){
+  .contact-right{
+    padding: 0 15px;
   }
 }
+
 /*當螢幕小於等於 576 像素  */
 @media screen and (max-width:576px){
   #logo img{
