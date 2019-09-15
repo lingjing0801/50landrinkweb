@@ -117,6 +117,7 @@ footer{
 }
 .contact-img img{
   width: 100%;
+  height: 500px;
 }
 /* RWD */
 /*當螢幕小於等於 1023 像素 平板 */
@@ -128,6 +129,9 @@ footer{
   .copy p{
     font-size: 6px;
   }
+  .contact-img img{
+    height: 400px;
+  }
 }
 /*當螢幕小於等於 768 像素  */
 @media screen and (max-width:768px){
@@ -138,7 +142,7 @@ footer{
     width: 40px;
   }
   .footer1{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
   }
   .footer3 img{
     width: 20px;
