@@ -115,6 +115,9 @@ footer{
   font-size: 20px;
   font-weight: 800;
 }
+.contact-img img{
+  width: 100%;
+}
 /* RWD */
 /*當螢幕小於等於 1023 像素 平板 */
 @media screen and (max-width:1023px){
