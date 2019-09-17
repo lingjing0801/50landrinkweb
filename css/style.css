@@ -128,8 +128,8 @@ footer{
 /*當螢幕小於等於 1023 像素 平板 */
 @media screen and (max-width:1023px){
   .footer2 h4{
-    font-size: 8px;
-    letter-spacing: 0;
+    font-size: 6px!important;
+    letter-spacing: 0!important;
   }
   .copy p{
     font-size: 6px;
@@ -175,7 +175,7 @@ footer{
     width: 30px;
   }
   .footer2 h4{
-    font-size: 6px;
+    font-size: 4px;
   }
   .copy p{
     font-size: 4px;
