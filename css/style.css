@@ -75,6 +75,7 @@ footer .copy p {
   text-align: center;
   font-size: 20px;
   font-weight: 800;
+  padding: 10px 0;
 }
 
 #about p, #about li {
