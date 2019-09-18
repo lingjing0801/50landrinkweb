@@ -116,6 +116,9 @@ footer{
 // 聯絡我們
 .contact{
   background-color: $color-main;
+  .contactbox{
+    padding: 30px 0;
+  }
   .title span{
     font-size: 20px;
     font-weight: 800;
@@ -148,10 +151,10 @@ footer{
     width: 40px;
   }
   .footer1 img{
-    width: 40px;
+    width: 40px !important;
   }
   .footer3 img{
-    width: 20px;
+    width: 20px !important;
   }
   .copy p{
     line-height: 2px;
@@ -169,28 +172,30 @@ footer{
     width: 30px;
   }
   .footer1 img{
-    width: 30px;
+    width: 30px !important;
+    padding: 10px 0;
   }
   .footer2 h4{
     font-size: 4px;
   }
   .copy p{
     font-size: 4px;
+    padding-top:20px; 
   }
   .footer3 img{
-    width: 10px;
+    width: 16px !important;
   }
   .new img{
-    width: 70%;
-    height: 270px;
+    width: 70% ;
+    height: 270px ;
   }
   .tea-img img{
-    height: 400px;
+    height: 400px !important;
   }
   .icon img{
-    width: 40px;
+    width: 40px !important;
   }
   .icon span{
-    font-size: 14px;
+    font-size: 14px !important;
   }
 }
