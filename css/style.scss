@@ -136,13 +136,13 @@ footer{
     letter-spacing: 0!important;
   }
   .copy p{
-    font-size: 6px;
+    font-size: 6px ;
   }
   .contact-img img{
-    height: 400px;
+    height: 400px !important;
   }
   .contact-right{
-    padding: 0 5px;
+    padding: 0 5px !important;
   }
 }
 //   當螢幕小於等於 768 像素 
@@ -163,7 +163,8 @@ footer{
 // 當螢幕小於等於 767 像素  
 @media screen and (max-width:767px){
   .contact-right{
-    padding: 0 15px;
+    padding: 0 15px !important;
+    padding-top:15px !important;
   }
 }
 //   當螢幕小於等於 576 像素 

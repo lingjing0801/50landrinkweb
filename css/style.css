@@ -156,10 +156,10 @@ footer .copy p {
     font-size: 6px;
   }
   .contact-img img {
-    height: 400px;
+    height: 400px !important;
   }
   .contact-right {
-    padding: 0 5px;
+    padding: 0 5px !important;
   }
 }
 
@@ -180,7 +180,8 @@ footer .copy p {
 
 @media screen and (max-width: 767px) {
   .contact-right {
-    padding: 0 15px;
+    padding: 0 15px !important;
+    padding-top: 15px !important;
   }
 }
 
