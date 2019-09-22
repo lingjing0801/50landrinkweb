@@ -21,6 +21,7 @@ $(document).ready(function () {
             $('#back-to-top').fadeOut(500);
         }
     });
+    // 城市連動區域
     $("#location").change(function () {
         switch (parseInt($(this).val())) {
 
