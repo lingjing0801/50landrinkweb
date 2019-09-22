@@ -64,6 +64,70 @@ $(document).ready(function () {
                     $("#dist").append($("<option value='" + array[i] + "'>" + array[i] + "</option>"));
                 });
                 break;
+            case 5:
+                $("#dist option").remove();
+                var array = ["北區", "東區", "香山區", "新竹縣"];
+                //利用each遍歷array中的值並將每個值新增到Select中
+                $.each(array, function (i, val) {
+                    $("#dist").append($("<option value='" + array[i] + "'>" + array[i] + "</option>"));
+                });
+                break;
+            case 6:
+                $("#dist option").remove();
+                var array = ["苗栗市", "苗栗縣"];
+                //利用each遍歷array中的值並將每個值新增到Select中
+                $.each(array, function (i, val) {
+                    $("#dist").append($("<option value='" + array[i] + "'>" + array[i] + "</option>"));
+                });
+                break;
+            case 7:
+                $("#dist option").remove();
+                var array = ["北區", "北屯區", "南屯區", "東區", "西區", "中區", "大里區", "霧峰區", "烏日區", "太平區", "后里區", "大雅區", "豐原區", "神岡區", "潭子區", "東勢區", "新社區", "大肚區", "大甲區", "沙鹿區", "清水區", "梧棲區"];
+                //利用each遍歷array中的值並將每個值新增到Select中
+                $.each(array, function (i, val) {
+                    $("#dist").append($("<option value='" + array[i] + "'>" + array[i] + "</option>"));
+                });
+                break;
+            case 8:
+                $("#dist option").remove();
+                var array = ["南投市", "南投縣"];
+                //利用each遍歷array中的值並將每個值新增到Select中
+                $.each(array, function (i, val) {
+                    $("#dist").append($("<option value='" + array[i] + "'>" + array[i] + "</option>"));
+                });
+                break;
+            case 9:
+                $("#dist option").remove();
+                var array = ["彰化市", "彰化縣"];
+                //利用each遍歷array中的值並將每個值新增到Select中
+                $.each(array, function (i, val) {
+                    $("#dist").append($("<option value='" + array[i] + "'>" + array[i] + "</option>"));
+                });
+                break;
+            case 10:
+                $("#dist option").remove();
+                var array = ["雲林縣"];
+                //利用each遍歷array中的值並將每個值新增到Select中
+                $.each(array, function (i, val) {
+                    $("#dist").append($("<option value='" + array[i] + "'>" + array[i] + "</option>"));
+                });
+                break;
+            case 11:
+                $("#dist option").remove();
+                var array = ["嘉義市", "嘉義縣"];
+                //利用each遍歷array中的值並將每個值新增到Select中
+                $.each(array, function (i, val) {
+                    $("#dist").append($("<option value='" + array[i] + "'>" + array[i] + "</option>"));
+                });
+                break;
+            case 12:
+                $("#dist option").remove();
+                var array = ["北區", "東區", "永康區", "中西區", "安平區", "南區"];
+                //利用each遍歷array中的值並將每個值新增到Select中
+                $.each(array, function (i, val) {
+                    $("#dist").append($("<option value='" + array[i] + "'>" + array[i] + "</option>"));
+                });
+                break;
         }
     });
 });
