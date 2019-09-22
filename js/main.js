@@ -128,6 +128,46 @@ $(document).ready(function () {
                     $("#dist").append($("<option value='" + array[i] + "'>" + array[i] + "</option>"));
                 });
                 break;
+            case 13:
+                $("#dist option").remove();
+                var array = ["三民區", "大寮區", "林園區", "小港區", "大社區", "仁武區", "左營區", "前金區", "前鎮區", "苓雅區", "新興區", "楠梓區", "鼓山區", "旗山區", "旗津區", "鳳山區", "鳥松區", "橋頭區", "阿蓮區", "燕巢區", "岡山區", "大樹區", "鹽埕區"];
+                //利用each遍歷array中的值並將每個值新增到Select中
+                $.each(array, function (i, val) {
+                    $("#dist").append($("<option value='" + array[i] + "'>" + array[i] + "</option>"));
+                });
+                break;
+            case 14:
+                $("#dist option").remove();
+                var array = ["屏東市"];
+                //利用each遍歷array中的值並將每個值新增到Select中
+                $.each(array, function (i, val) {
+                    $("#dist").append($("<option value='" + array[i] + "'>" + array[i] + "</option>"));
+                });
+                break;
+            case 15:
+                $("#dist option").remove();
+                var array = ["台東市"];
+                //利用each遍歷array中的值並將每個值新增到Select中
+                $.each(array, function (i, val) {
+                    $("#dist").append($("<option value='" + array[i] + "'>" + array[i] + "</option>"));
+                });
+                break;
+            case 16:
+                $("#dist option").remove();
+                var array = ["馬公市"];
+                //利用each遍歷array中的值並將每個值新增到Select中
+                $.each(array, function (i, val) {
+                    $("#dist").append($("<option value='" + array[i] + "'>" + array[i] + "</option>"));
+                });
+                break;
+            case 17:
+                $("#dist option").remove();
+                var array = ["金門縣"];
+                //利用each遍歷array中的值並將每個值新增到Select中
+                $.each(array, function (i, val) {
+                    $("#dist").append($("<option value='" + array[i] + "'>" + array[i] + "</option>"));
+                });
+                break;
         }
     });
 });
