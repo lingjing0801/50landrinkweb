@@ -24,7 +24,6 @@ $(document).ready(function () {
     // 城市連動區域
     $("#location").change(function () {
         switch (parseInt($(this).val())) {
-
             case 0:
                 $("#dist option").remove();
                 var array = ["請選擇區域"];
