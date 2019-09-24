@@ -13,7 +13,7 @@ $color-main:#ffffef;
 }
 // 輪播
 .carousel img {
-  height: 80vh;
+  height: 82vh;
   object-fit: cover;
   
 }
@@ -61,13 +61,14 @@ footer{
 #about{
     background-color: $color-main;
     letter-spacing: 3px;
+    height: 650px;
     padding: 30px 0;
 
     h2{
     text-align: center;
     font-size: 20px;
     font-weight: 800;
-    padding: 10px 0;
+    padding: 20px 0;
   }
     p,li{
     line-height: 30px;
@@ -118,7 +119,7 @@ footer{
 .contact{
   background-color: $color-main;
   .contactbox{
-    padding: 30px 0;
+    padding: 60px 0;
   }
   .title span{
     font-size: 20px;
@@ -158,11 +159,17 @@ footer{
   .copy p{
     font-size: 6px ;
   }
+  #about{
+    height: 70vh;
+  }
   .contact-img img{
     height: 400px !important;
   }
   .contact-right{
     padding: 0 5px !important;
+  }
+  .contactbox{
+    padding: 30px 0;
   }
 }
 //   當螢幕小於等於 768 像素 
@@ -182,6 +189,9 @@ footer{
 }
 // 當螢幕小於等於 767 像素  
 @media screen and (max-width:767px){
+  #about{
+    height: auto;
+  }
   .contact-right{
     padding: 0 15px !important;
     padding-top:15px !important;
