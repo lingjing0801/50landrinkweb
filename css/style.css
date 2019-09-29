@@ -149,6 +149,20 @@ footer .copy p {
   height: 500px;
 }
 
+.info {
+  min-height: 300px;
+  padding: 20px 0;
+}
+
+.info .info-box1 {
+  border: 2px solid white;
+}
+
+.info .info-box1 .info-img img {
+  width: 80px;
+  vertical-align: center;
+}
+
 #back-to-top {
   background-color: #fcfc5c;
   color: black;
@@ -214,6 +228,17 @@ footer .copy p {
   .contact-right {
     padding: 0 15px !important;
     padding-top: 15px !important;
+  }
+  .look {
+    width: 90px;
+    padding-top: 0;
+    margin: 0 auto;
+  }
+  .look .btn {
+    margin: 0 auto !important;
+  }
+  .info {
+    text-align: center;
   }
 }
 

@@ -130,6 +130,22 @@ footer{
     height: 500px;
   }
 }
+// 門市
+.info {
+  min-height:300px ;
+  padding: 20px 0;
+    .info-box1{
+      border:2px solid white;
+      .info-img{
+        img{
+          width: 80px;
+          vertical-align: center;
+        }
+      }
+    }
+    
+    
+}
 // 回到頂端按鈕
 #back-to-top{
   background-color:#fcfc5c;
@@ -195,6 +211,17 @@ footer{
   .contact-right{
     padding: 0 15px !important;
     padding-top:15px !important;
+  }
+  .look{
+    width: 90px;
+    padding-top:0;
+    margin: 0 auto;
+    .btn{
+      margin: 0 auto!important;
+    }
+  }
+  .info{
+    text-align: center;
   }
 }
 //   當螢幕小於等於 576 像素 
