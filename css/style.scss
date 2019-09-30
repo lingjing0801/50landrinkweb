@@ -131,17 +131,24 @@ footer{
   }
 }
 // 門市
-.info {
-  min-height:300px ;
-  padding: 20px 0;
-    .info-box{
-      p{
-        font-weight: 600;
-      }
-    }
-    
-    
+.search{
+  background-color: $color-main;
+  min-height:400px ;
+  .title span{
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .info {
+    display:none;
+    padding: 20px 0;
+      .info-box{
+        p{
+          font-weight: 600;
+        }
+      }        
+  }
 }
+
 // 回到頂端按鈕
 #back-to-top{
   background-color:#fcfc5c;

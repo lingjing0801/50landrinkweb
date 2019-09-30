@@ -39,19 +39,22 @@ $(document).ready(function () {
         });
     });
 
+
     $(function () {
         var $info = $('.info');
         var next = $info.html();
 
         $('#dist').change(function () {
             var info1 = $(this).val();
-
-            $info.html(next).find('div').each(function () {
-                var info2 = $(this).data('val');
-                if (info1 != info2) {
-                    $(this).remove();
-                }
-            });          
+            $('.btn').click(function (e) {
+                $('.info').css('display','flex')            
+                $info.html(next).find('div').each(function () {
+                    var info2 = $(this).data('val');
+                    if (info1 != info2) {
+                        $(this).remove();
+                    }
+                });
+            });
         });
     });
 

@@ -149,12 +149,22 @@ footer .copy p {
   height: 500px;
 }
 
-.info {
-  min-height: 300px;
+.search {
+  background-color: #ffffef;
+  min-height: 400px;
+}
+
+.search .title span {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.search .info {
+  display: none;
   padding: 20px 0;
 }
 
-.info .info-box p {
+.search .info .info-box p {
   font-weight: 600;
 }
 
