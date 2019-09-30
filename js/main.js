@@ -36,14 +36,25 @@ $(document).ready(function () {
                 }
             });
 
-            if ($(this).val() === '') {
-                $dist.attr('disabled', 'disabled');
-            } else {
-                $dist.removeAttr('disabled');
-            }
-
         });
     });
+
+    $(function () {
+        var $info = $('.info');
+        var next = $info.html();
+
+        $('#dist').change(function () {
+            var info1 = $(this).val();
+
+            $info.html(next).find('div').each(function () {
+                var info2 = $(this).data('val');
+                if (info1 != info2) {
+                    $(this).remove();
+                }
+            });          
+        });
+    });
+
 
 
 });
