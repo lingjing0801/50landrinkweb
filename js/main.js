@@ -22,6 +22,7 @@ $(document).ready(function () {
         }
     });
 
+    // 城市連到區域
     $(function () {
         var $dist = $('#dist');
         var original = $dist.html();
@@ -32,6 +33,7 @@ $(document).ready(function () {
             $dist.html(original).find('option').each(function () {
                 var val2 = $(this).data('val');
                 if (val1 != val2) {
+                    // 請選擇區域 不刪除 (如果刪了每筆第一選項就連不到資料 ) 以及 value 對應不到data-val的都刪掉
                     $(this).not('.msg').remove();
                 }
             });
@@ -39,7 +41,7 @@ $(document).ready(function () {
         });
     });
 
-
+    // 區域和按鈕 連到資料
     $(function () {
         var $info = $('.info');
         var next = $info.html();
@@ -48,6 +50,7 @@ $(document).ready(function () {
             var info1 = $(this).val();
 
             $('.btn').click(function (e) {
+                // display 要改 flex 要不然會跑版 , bootstrap 裡 grid 是用flex 不是 inline-block
                 $('.info').css('display','flex');    
                        
                 $info.html(next).find('div').each(function () {
