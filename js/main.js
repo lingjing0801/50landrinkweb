@@ -32,7 +32,7 @@ $(document).ready(function () {
             $dist.html(original).find('option').each(function () {
                 var val2 = $(this).data('val');
                 if (val1 != val2) {
-                    $(this).remove();
+                    $(this).not('.msg').remove();
                 }
             });
 
@@ -48,7 +48,7 @@ $(document).ready(function () {
             var info1 = $(this).val();
 
             $('.btn').click(function (e) {
-                $('.info').css('display','flex')     
+                $('.info').css('display','flex');    
                        
                 $info.html(next).find('div').each(function () {
                     var info2 = $(this).data('val');
