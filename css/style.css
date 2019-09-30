@@ -87,12 +87,23 @@ footer .copy p {
   background-color: #ffffef;
 }
 
-.new img {
-  width: 100%;
-  height: 300px;
+.news .new {
+  overflow: hidden;
 }
 
-.new p {
+.news .new img {
+  width: 100%;
+  height: 300px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.news .new:hover img {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+
+.news .new p {
   text-align: center;
   padding: 10px 0;
 }
