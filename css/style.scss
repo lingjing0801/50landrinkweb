@@ -134,13 +134,9 @@ footer{
 .info {
   min-height:300px ;
   padding: 20px 0;
-    .info-box1{
-      border:2px solid white;
-      .info-img{
-        img{
-          width: 80px;
-          vertical-align: center;
-        }
+    .info-box{
+      p{
+        font-weight: 600;
       }
     }
     

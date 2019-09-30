@@ -154,13 +154,8 @@ footer .copy p {
   padding: 20px 0;
 }
 
-.info .info-box1 {
-  border: 2px solid white;
-}
-
-.info .info-box1 .info-img img {
-  width: 80px;
-  vertical-align: center;
+.info .info-box p {
+  font-weight: 600;
 }
 
 #back-to-top {
