@@ -271,3 +271,9 @@ footer{
     font-size: 14px !important;
   }
 }
+//   當螢幕小於等於 320 像素 
+@media screen and (max-width:320px){
+  .info-box{
+    padding:0;
+  }
+}

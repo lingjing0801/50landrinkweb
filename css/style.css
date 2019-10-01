@@ -290,4 +290,10 @@ footer .copy p {
     font-size: 14px !important;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .info-box {
+    padding: 0;
+  }
+}
 /*# sourceMappingURL=style.css.map */
