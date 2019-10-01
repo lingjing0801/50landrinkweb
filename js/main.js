@@ -50,7 +50,7 @@ $(document).ready(function () {
             var info1 = $(this).val();
 
             $('.btn').click(function (e) {
-                // display 要改 flex 要不然會跑版 , bootstrap 裡 grid 是用flex 不是 inline-block
+                // display 要改 flex 要不然會跑版 , bootstrap 裡 grid 是用flex  不是 display:grid
                 $('.info').css('display','flex');    
                        
                 $info.html(next).find('div').each(function () {
