@@ -4,6 +4,7 @@
 // scrollTop 元素的上方
 // jqready tab
 $(document).ready(function () {
+
     $('#back-to-top').click(function (e) {
         $('html,body').animate({ scrollTop: 0 }, 1000);
 
@@ -15,7 +16,8 @@ $(document).ready(function () {
         // console.log($(window).scrollTop());
 
         // 如果螢幕高度 >=230 就顯示按鈕 否則就隱藏按鈕
-        if ($(window).scrollTop() >= 230) {
+        
+        if ($(window).scrollTop() >= 200) {
             $('#back-to-top').fadeIn(500);
         } else {
             $('#back-to-top').fadeOut(500);
@@ -51,8 +53,8 @@ $(document).ready(function () {
 
             $('.btn').click(function (e) {
                 // display 要改 flex 要不然會跑版 , bootstrap 裡 grid 是用flex  不是 display:grid
-                $('.info').css('display','flex');    
-                       
+                $('.info').css('display', 'flex');
+
                 $info.html(next).find('div').each(function () {
                     var info2 = $(this).data('val');
                     if (info1 != info2) {
