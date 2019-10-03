@@ -143,6 +143,10 @@ footer .copy p {
   padding-bottom: 30px;
 }
 
+.slick button {
+  display: none !important;
+}
+
 .contact {
   background-color: #ffffef;
 }
