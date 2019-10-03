@@ -262,6 +262,9 @@ footer .copy p {
   .search {
     min-height: 400px;
   }
+  .teaname, .tea-M, .tea-L {
+    padding-top: 20px;
+  }
 }
 
 @media screen and (max-width: 576px) {

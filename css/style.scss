@@ -241,6 +241,9 @@ footer{
   .search{
     min-height: 400px;
   }
+  .teaname,.tea-M ,.tea-L{
+    padding-top: 20px;
+  }
 }
 //   當螢幕小於等於 576 像素 
 @media screen and (max-width:576px){
@@ -261,11 +264,11 @@ footer{
   .footer3 img{
     width: 16px !important;
   }
- 
   .new img{
     width: 70% ;
     height: 270px ;
   }
+  
   .tea-img img{
     height: 400px !important;
   }
