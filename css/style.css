@@ -25,11 +25,11 @@ footer {
 }
 
 footer .footer1 img {
-  width: 80px;
+  width: 60px;
 }
 
 footer .footer2 {
-  padding-top: 10px;
+  padding-top: 25px;
 }
 
 footer .footer2 h4 {
@@ -89,7 +89,6 @@ footer .copy p {
 
 .news .new img {
   width: 100%;
-  height: 300px;
 }
 
 .news .new p {
@@ -108,11 +107,15 @@ footer .copy p {
 .tea .teabox .tea-img img {
   width: 100%;
   height: 620px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .tea .teabox .latte-img img {
   width: 100%;
   height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .tea .icon img {
@@ -208,6 +211,8 @@ footer .copy p {
   }
   .contact-img img {
     height: 400px !important;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .contact-right {
     padding: 0 5px !important;
@@ -254,6 +259,11 @@ footer .copy p {
   .teaname, .tea-M, .tea-L {
     padding-top: 20px;
   }
+  .footer2 {
+    text-align: center;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -275,14 +285,19 @@ footer .copy p {
     width: 16px !important;
   }
   .new img {
-    width: 70%;
-    height: 270px;
+    width: 90% !important;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   .latte-img img {
     height: 400px !important;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .tea-img img {
     height: 400px !important;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .icon img {
     width: 40px !important;

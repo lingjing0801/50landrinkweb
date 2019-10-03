@@ -24,10 +24,10 @@ footer{
     margin-bottom: 0 !important;
     padding-bottom: 0 !important;
     .footer1 img{
-        width: 80px;
+        width: 60px;       
     }
     .footer2{
-        padding-top:10px;
+        padding-top:25px;
     }
     .footer2 h4{
         font-size: 12px;
@@ -79,7 +79,6 @@ footer{
   background-color: $color-main; 
   .new img{
     width: 100%;
-    height: 300px;
   }
   .new p{
     text-align: center;
@@ -95,12 +94,14 @@ footer{
   .teabox{
     padding: 30px 0;
     .tea-img img{
-      width: 100%;
+      width: 100%; 
       height: 620px;
+      object-fit: cover; 
     }
     .latte-img img{
-      width: 100%;
+      width: 100%; 
       height: 500px;
+      object-fit: cover; 
     }
   }
   .icon img{
@@ -191,6 +192,7 @@ footer{
   }
   .contact-img img{
     height: 400px !important;
+    object-fit: cover; 
   }
   .contact-right{
     padding: 0 5px !important;
@@ -237,6 +239,11 @@ footer{
   .teaname,.tea-M ,.tea-L{
     padding-top: 20px;
   }
+  .footer2{
+    text-align: center;
+    margin: 0!important;
+    padding:0!important;
+  }
 }
 //   當螢幕小於等於 576 像素 
 @media screen and (max-width:576px){
@@ -258,14 +265,16 @@ footer{
     width: 16px !important;
   }
   .new img{
-    width: 70% ;
-    height: 270px ;
+    width: 90% !important;
+    object-fit:contain; 
   }
   .latte-img img{
     height: 400px !important;
+    object-fit: cover; 
   }
   .tea-img img{
     height: 400px !important;
+    object-fit: cover; 
   }
   .icon img{
     width: 40px !important;
