@@ -112,7 +112,7 @@ footer .copy p {
 
 .tea .teabox .latte-img img {
   width: 100%;
-  height: 400px;
+  height: 500px;
 }
 
 .tea .icon img {
@@ -277,6 +277,9 @@ footer .copy p {
   .new img {
     width: 70%;
     height: 270px;
+  }
+  .latte-img img {
+    height: 400px !important;
   }
   .tea-img img {
     height: 400px !important;
